@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="produto.css" />
+
+</head>
+<body>
+       <!-- Navbar 4: Modern Dark -->
+ <a href="https://api.whatsapp.com/send?phone=5516996238167" class="whatsapp-button" target="_blank">
+        <img src="images/whatsapp.png" alt="Fale conosco no WhatsApp" />
+      </a>
+       
+            
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-modern">
+                <div class="container">
+                    <a class="navbar-brand logo" href="index.html">
+                      <img src="images/logo.png" alt="Logo" class="navbar-logo" width="250">
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav4">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav4">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="e-comerce.html">Produtos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#hero">Soluções NR-12 / NR-18</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#missao">Quem Somos</a>
+                            </li>
+                           
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary ms-2" href="https://api.whatsapp.com/send?phone=5516996238167"> Orçamento personalizado</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div> 
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Product Images -->
+        <div class="col-md-6 mb-4">
+            <img src="images/escada1.JPG" alt="Product" class="img-fluid rounded mb-3 product-image" id="mainImage">
+            <div class="d-flex justify-content-between">
+                <img src="images/escada2.JPG" alt="Thumbnail 1" class="thumbnail rounded active" onclick="changeImage(event, this.src)">
+                <img src="images/escada2.JPG" alt="Thumbnail 2" class="thumbnail rounded" onclick="changeImage(event, this.src)">
+                <img src="images/escada2.JPG" alt="Thumbnail 3" class="thumbnail rounded" onclick="changeImage(event, this.src)">
+                <img src="images/escada2.JPG" alt="Thumbnail 4" class="thumbnail rounded" onclick="changeImage(event, this.src)">
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h2 class="mb-3">Escada Industrial </h2>
+            <p class="text-muted mb-4">SKU: WH1000XM4</p>
+            <div class="mb-3">
+                <span class="h4 me-2">$R$1.499,99</span>
+                <span class="text-muted"><s>$R$1.299,99</s></span>
+            </div>
+            <div class="mb-3">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
+                <span class="ms-2">⭐ 4.5 (120 avaliações)</span>
+            </div>
+            <p class="mb-4">Experimente a máxima segurança e durabilidade com esta escada industrial premium, projetada para suportar usos intensos e garantir estabilidade em qualquer ambiente de trabalho. Ideal para profissionais que exigem qualidade e resistência no dia a dia.
+
+.</p>
+            <div class="mb-4">
+                <h5>Color:</h5>
+                <div class="btn-group" role="group" aria-label="Color selection">
+                    <input type="radio" class="btn-check" name="color" id="black" autocomplete="off" checked>
+                    <label class="btn btn-outline-dark" for="black">Preto</label>
+                    <input type="radio" class="btn-check" name="color" id="silver" autocomplete="off">
+                    <label class="btn btn-outline-secondary" for="silver">Prata</label>
+                    <input type="radio" class="btn-check" name="color" id="blue" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="blue">Azul</label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="quantity" class="form-label">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" value="1" min="1" style="width: 80px;">
+            </div>
+            <button class="btn btn-primary btn-lg mb-3 me-2">
+                    <i class="bi bi-cart-plus"></i> Comprar
+                </button>
+            <button class="btn btn-outline-secondary btn-lg mb-3">
+                    <i class="bi bi-heart"></i> Add to Wishlist
+                </button>
+            <div class="mt-4">
+                <h5>Principais Características:</h5>
+                <ul>
+                    <li>Construção robusta com materiais de alta resistência industrial
+
+</li>
+                    <li>Capacidade de carga elevada para máxima segurança
+
+</li>
+                    <li>Design antiderrapante para maior estabilidade
+
+</li>
+                    <li>Fácil transporte e armazenamento compacto
+
+</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 footer-section">
+                <div class="footer-logo">FB serralheria e caldeiraria</div>
+                <p class="footer-about">Somos dedicados a oferecer o melhor serviço aos nossos clientes. Nossa missão é criar soluções 
+                    inovadoras que façam a diferença na vida das pessoas.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-section">
+                <h5>Links Rápidos</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-section">
+                <h5>Suporte</h5>
+                <ul class="footer-links">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Termos de serviço</a></li>
+                    <li><a href="#">Contato Suporte</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 footer-section">
+                <h5>Newsletter</h5>
+                <p class="footer-about">Se inscreva no nosso catálogo de produtos.</p>
+                <div class="footer-newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="newsletter-btn">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <ul class="footer-bottom-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+            </ul>
+            <p>© 2025 Fb serralheria e caldeiraria. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    function changeImage(event, src) {
+            document.getElementById('mainImage').src = src;
+            document.querySelectorAll('.thumbnail').forEach(thumb => thumb.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+</script>
+
+</body>
+</html>
